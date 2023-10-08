@@ -1,0 +1,30 @@
+BROWSER	--> SERVER																		
+HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note note: testin
+
+SERVER --> BROWSER
+respond HTTP status code 302														
+							
+BROWSER --> SERVER								
+GET /exampleapp/notes
+
+SERVER --> BROWSER
+HTML document
+
+BROWSER --> SERVER								
+GET main.css
+
+SERVER --> BROWSER
+main.css
+
+BROWSER --> SERVER								
+GET main.js
+
+SERVER --> BROWSER
+main.js
+
+BROWSER --> SERVER								
+GET data.json
+
+SERVER --> BROWSER
+data.json {content: 'testin', date: '2023-10-08T15:52:08.306Z'}
+

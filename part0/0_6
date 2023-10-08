@@ -1,0 +1,9 @@
+
+BROWSER	--> SERVER								HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa  {"content": "testin","date": "2023-10-08T17:32:51.950Z"}
+
+SERVER --> BROWSER
+respond HTTP status code 201
+
+SERVER --> BROWSER
+{"message":"note created"}
+					

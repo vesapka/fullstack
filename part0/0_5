@@ -1,0 +1,24 @@
+BROWSER	--> SERVER															
+GET https://studies.cs.helsinki.fi/exampleapp/spa 
+
+SERVER --> BROWSER
+HTML page
+
+BROWSER	--> SERVER
+GET https://studies.cs.helsinki.fi/exampleapp/main.css
+
+SERVER --> BROWSER
+main.css
+
+BROWSER	--> SERVER
+GET https://studies.cs.helsinki.fi/exampleapp/spa.js
+
+SERVER --> BROWSER
+spa.js
+
+BROWSER	--> SERVER
+GET https://studies.cs.helsinki.fi/exampleapp/data.json
+
+SERVER --> BROWSER
+data.json
+
